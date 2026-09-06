@@ -1,0 +1,15 @@
+{
+  "name": "alphavision/whmcs-domain-status-monitor",
+  "description": "Consulta manual do estado DNS dos domínios ativos no WHMCS.",
+  "type": "whmcs-addon",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2 <8.4",
+    "mikepultz/netdns2": "2.0.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alphavision\\DomainMonitor\\": "src/"
+    }
+  }
+}
